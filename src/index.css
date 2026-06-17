@@ -27,7 +27,7 @@ body {
   display: flex;
   /* place-items: center; */
   justify-content: center;
-  align-items: center;
+  align-items: flex-start; 
 
   min-height: 100vh;
 
@@ -103,6 +103,8 @@ body{
   background-color: var(--bg);
   color: var(--text);
   transition: 0.3s;
+  
 
 }
+
 
