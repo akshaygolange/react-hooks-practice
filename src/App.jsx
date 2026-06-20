@@ -6,6 +6,8 @@ import UseEffectDemo from "./components/UseEffectDemo";
 import UseRefDemo, { DropDown } from "./components/UseRefDemo";
 import ThemeContext from "./context/ThemeContext";
 import UseMemoDemo  from "./components/UseMemoDemo";
+import UseCallbackDemo from "./components/UseCallbackDemo";
+import UseFetchHookDemo from "./components/use-fetch/UseFetchHookDemo";
 
 const App = () => {
   const { theme, toggleTheme } = useContext(ThemeContext);
@@ -32,7 +34,10 @@ const App = () => {
       </button> */}
 
 
-      <UseMemoDemo/>
+      {/* <UseMemoDemo/> */}
+      {/* <UseCallbackDemo/> */}
+
+      <UseFetchHookDemo/>
 
     </div>
   );
