@@ -8,6 +8,11 @@ import ThemeContext from "./context/ThemeContext";
 import UseMemoDemo  from "./components/UseMemoDemo";
 import UseCallbackDemo from "./components/UseCallbackDemo";
 import UseFetchHookDemo from "./components/use-fetch/UseFetchHookDemo";
+import ChatApp from "./components/useLayout-Effect";
+
+import Test from "./components/useLayout-Effect/index2"
+
+
 
 const App = () => {
   const { theme, toggleTheme } = useContext(ThemeContext);
@@ -37,7 +42,9 @@ const App = () => {
       {/* <UseMemoDemo/> */}
       {/* <UseCallbackDemo/> */}
 
-      <UseFetchHookDemo/>
+      {/* <UseFetchHookDemo/> */}
+      <ChatApp/>
+      <Test/>
 
     </div>
   );
